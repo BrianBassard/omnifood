@@ -1,3 +1,5 @@
+/*This is where we have set up the overall design scheme for the site vvv*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,3 +14,84 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
+/*This is where we have set up the overall design scheme for the site ^^^*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.04)), url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+    font-size: 250%;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/*Button themevvv*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #6FB0C9;
+    border-color: #6FB0C9;
+    margin-right: 15px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #5d94a9;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #6FB0C9;
+    color: #fff;
+}
+
+.btn-ghost:hover {
+    background-color: #6FB0C9;
+}
+
+/*Button theme^^^*/
+
+.logo {
+    height: 100px;
+    float: left;
+    width: auto;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+

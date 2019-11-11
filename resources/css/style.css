@@ -22,6 +22,14 @@ html {
     margin: 0 auto;
 }
 
+.section-features {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.04)), url(hero.jpg);
     background-size: cover;
@@ -37,14 +45,62 @@ header {
     transform: translate(-50%, -50%);
 }
 
-h1 {
-    margin: 0;
-    font-size: 250%;
-    color: #fff;
+h1,
+h2,
+h3{
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 250%;
+    color: #fff;
     word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 100%;
+    margin-bottom: 15px;
+    font-weight: 400;
+    word-spacing: 0;
+    width: 105%;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #6FB0C9;
+    content: " ";
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 120%;
+    text-align: center;
+}
+
+.icon-big {
+    font-size: 400%;
+    display: block;
+    color: #6FB0C9;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 /*Button themevvv*/

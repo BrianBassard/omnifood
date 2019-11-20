@@ -31,7 +31,7 @@ html {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.04)), url(hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -80,7 +80,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #6FB0C9;
+    background-color: #74D038;
     content: " ";
     width: 100px;
     margin: auto;
@@ -98,7 +98,7 @@ h2:after {
 .icon-big {
     font-size: 400%;
     display: block;
-    color: #6FB0C9;
+    color: #74D038;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -109,34 +109,42 @@ h2:after {
 .btn:visited {
     display: inline-block;
     padding: 10px 30px;
-    font-weight: 400;
+    font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
     color: #fff;
     transition: background-color 0.5s, border 0.5s, color 0.5s;
+    text-transform: uppercase;
+    transition: transform 0.2s;
+    font: bold;
+}
+
+.btn:active {
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #6FB0C9;
-    border: 3px solid #6FB0C9;
+    background-color: #74D038;
+    border: 3px solid #74D038;
     margin-right: 15px;
 }
 
 .btn:hover,
 .btn:active {
-    background-color: #5d94a9;
-    border: 3px solid #5d94a9;
+    background-color: #489137;
+    border: 3px solid #489137;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 3px solid #6FB0C9;
+    border: 3px solid #74D038;
     color: #fff;
 }
 
 .btn-ghost:hover {
-    background-color: #6FB0C9;
+    background-color: #74D038;
 }
 
 /*Button theme^^^*/
@@ -168,7 +176,7 @@ h2:after {
 }
 
 .main-nav li a:hover {
-    border-bottom: 3px solid #6FB0C9;
+    border-bottom: 3px solid #74D038;
     transition: 0.5s;
 }
 
@@ -202,4 +210,52 @@ h2:after {
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
+}
+
+.steps-box {
+    margin-top: 30px;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+    align-content: center;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #74D038;
+    border: 2px solid #74D038;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 20px;
 }

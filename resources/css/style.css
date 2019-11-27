@@ -120,7 +120,7 @@ h2:after {
 }
 
 .btn:active {
-    transform: scale(1.05);
+    transform: scale(1.35);
     transition: 0.2s;
 }
 
@@ -135,6 +135,7 @@ h2:after {
 .btn:active {
     background-color: #489137;
     border: 3px solid #489137;
+    transition: 0.9s;
 }
 
 .btn-ghost:link,
@@ -229,7 +230,7 @@ h2:after {
 
 .app-screen {
     width: 40%;
-    align-content: center;
+    justify-content: center;
 }
 
 .works-step {

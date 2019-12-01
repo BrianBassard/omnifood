@@ -1,8 +1,8 @@
 /*This is where we have set up the overall design scheme for the site vvv*/
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -13,6 +13,15 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
 
 /*This is where we have set up the overall design scheme for the site ^^^*/
@@ -190,7 +199,6 @@ h2:after {
     display: block;
     float: left;
     width: 25%;
-    margin: 0;
 }
 
 .meal-photo {
@@ -213,8 +221,8 @@ h2:after {
     transform: scale(1.03);
 }
 
-.steps-box {
-    margin-top: 30px;
+.how {
+    margin-top: 70px;
 }
 
 .steps-box:first-child {
